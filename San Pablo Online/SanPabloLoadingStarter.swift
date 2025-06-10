@@ -29,19 +29,19 @@ struct SanPabloLoadingOverlay: View {
                     .offset(y: 40)
             }
 
-            VStack(spacing: 0) {
-                // Логотип сверху
-                HStack {
-                    Spacer()
-                    Image("title")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(maxWidth: 180, maxHeight: 120)
-                        .padding(.top, 60)
-                    Spacer()
-                }
-                Spacer()
-            }
+//            VStack(spacing: 0) {
+//                // Логотип сверху
+//                HStack {
+//                    Spacer()
+//                    Image("title")
+//                        .resizable()
+//                        .aspectRatio(contentMode: .fit)
+//                        .frame(maxWidth: 180, maxHeight: 120)
+//                        .padding(.top, 60)
+//                    Spacer()
+//                }
+//                Spacer()
+//            }
 
             // Шахтер и камни
             VStack {
